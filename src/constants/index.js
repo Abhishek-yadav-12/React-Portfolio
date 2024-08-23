@@ -40,11 +40,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Exercise Lab",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Discover Exercise Lab, the premier React Fitness App featuring over a thousand exercises, detailed info, and YouTube integration. Browse categories, view examples, and find related videos effortlessly!",
+    technologies: ["HTML", "CSS", "React", "Material UI", "Rapid API"],
+    link: "https://exerciselab.netlify.app/",
   },
   {
     title: "Task Management App",

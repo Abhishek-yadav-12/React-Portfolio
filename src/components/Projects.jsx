@@ -31,7 +31,13 @@ const Projects = () => {
             initial={{opacity: 0, x: 100}}
             transition={{ duration: 1}}
             className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <h6> <a href={project.link} // Assuming `link` is a property in your project object
+                  target="_blank"    // Opens the link in a new tab
+                  rel="noopener noreferrer" // Security best practice for external links
+                  className="text-blue-500 hover:underline"
+                >
+                  {project.title}
+                </a></h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
