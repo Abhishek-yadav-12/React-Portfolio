@@ -44,22 +44,22 @@ export const PROJECTS = [
     image: project1,
     description:
       "Discover Exercise Lab, the premier React Fitness App featuring over a thousand exercises, detailed info, and YouTube integration. Browse categories, view examples, and find related videos effortlessly!",
-    technologies: ["HTML", "CSS", "React", "Material UI", "Rapid API"],
+    technologies: ["HTML", "CSS", "React Js", "Material UI", "Rapid API"],
     link: "https://exerciselab.netlify.app/",
   },
   {
-    title: "Task Management App",
+    title: "Weather Flex",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Weather Flex app built with React.js, uses an API to fetch and display real-time weather data for any city. It provides a dynamic user interface to view current weather conditions, including temperature, humidity, and visibility.",
+    technologies: ["HTML", "CSS", "React Js", "API"],
   },
   {
-    title: "Portfolio Website",
+    title: "To Do App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "The to-do app, built with React, ensures tasks persist across browser refreshes using local storage. Users can add, check off completed tasks, and track their progress seamlessly.",
+    technologies: ["HTML", "CSS", "React"],
   },
   {
     title: "Blogging Platform",
