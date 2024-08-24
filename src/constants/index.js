@@ -63,13 +63,13 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React"],
     link: "https://todo-app-by-abhi.netlify.app/",
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
