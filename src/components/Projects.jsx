@@ -20,10 +20,11 @@ const Projects = () => {
             className="w-full lg:w-1/4">
               <img
                 src={project.image}
-                width={150}
-                height={150}
+                width={400}
+                height={400}
                 alt={project.title}
-                className="mb-6 rounded"
+                className="mb-6 -ml-14 rounded mr-6"
+                
               />
             </motion.div>
             <motion.div
@@ -38,7 +39,7 @@ const Projects = () => {
                 >
                   {project.title}
                 </a></h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-4 text-neutral-400 ml-0" >{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
