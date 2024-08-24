@@ -53,6 +53,7 @@ export const PROJECTS = [
     description:
       "Weather Flex app built with React.js, uses an API to fetch and display real-time weather data for any city. It provides a dynamic user interface to view current weather conditions, including temperature, humidity, and visibility.",
     technologies: ["HTML", "CSS", "React Js", "API"],
+    link: "https://weather-flex-abhi.netlify.app/",
   },
   {
     title: "To Do App",
@@ -60,6 +61,7 @@ export const PROJECTS = [
     description:
       "The to-do app, built with React, ensures tasks persist across browser refreshes using local storage. Users can add, check off completed tasks, and track their progress seamlessly.",
     technologies: ["HTML", "CSS", "React"],
+    link: "https://todo-app-by-abhi.netlify.app/",
   },
   {
     title: "Blogging Platform",
